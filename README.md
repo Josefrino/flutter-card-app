@@ -1,12 +1,9 @@
 # micard
 
-A new Flutter project.
+A new Flutter project, based on the AppBrewery course.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+## Resources
+A few resources if you are trying to build your own personal flutter app:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
