@@ -1,6 +1,6 @@
 # micard
 
-A new Flutter project, based on the AppBrewery course.
+A basic flutter app, based on the AppBrewery course.
 
 ## Resources
 A few resources if you are trying to build your own personal flutter app:
