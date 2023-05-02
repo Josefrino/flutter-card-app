@@ -37,20 +37,47 @@ class MyApp extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
-            CircleAvatar(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            const CircleAvatar(
               radius: 60,
               backgroundImage: AssetImage('images/boat.png'),
             ),
-            Text('data'),
-            Text('data'),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 24, vertical: 10),
+            Text(
+              'Josef',
+              style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.blueGrey.shade100,
+                  fontFamily: 'Sigmar'),
+            ),
+            Text(
+              '10x Developer',
+              style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.blueGrey.shade100,
+                  fontFamily: 'Bruno'),
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            const SizedBox(
+              width: 180,
               child: Divider(
                 height: 1,
                 color: Colors.white,
               ),
-            )
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            const Text(
+              'Testing Roboto text font',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 30,
+                fontFamily: 'Roboto',
+              ),
+            ),
           ],
         ),
       ),
