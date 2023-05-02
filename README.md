@@ -1,4 +1,4 @@
-# micard
+# Micard
 
 A basic flutter app, based on the AppBrewery course.
 
